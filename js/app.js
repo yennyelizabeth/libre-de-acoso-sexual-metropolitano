@@ -6,8 +6,7 @@ window.addEventListener('load', function(event) {
     var btnRed = document.getElementById('btn-red');
     var callGreen = document.getElementById('call-green');
     var info = document.getElementById('info');
-    // var usuarioFirst = document.getElementById('usuario-first');
-    // var usuarioSecond = document.getElementById('usuario-second');
+
     var main = document.getElementById('main');
     var call = document.getElementById('call');
     var btnEnviar = document.getElementById('btn-1');
