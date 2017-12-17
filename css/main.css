@@ -214,7 +214,7 @@ input[type="radio"]:checked ~ label {
     border-radius: 15px;
 }
 .blog-img {
-    margin-top: 5vh;
+    margin-top: 1vh;
     width: 120%;
     height: auto;
 }
