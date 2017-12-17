@@ -1,5 +1,6 @@
 /*Estilos*/
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 /* Styles for second section */
 
@@ -40,13 +41,68 @@
     padding: 0px;
     box-sizing: border-box;
 }
+=======
+>>>>>>> b7008433fce5e21a3bd9076568b48e0538d17967
 
-.section-register{
-    position: relative;
-    top: 12em;
+/*ESTILOS NAV */
+body{
+    background-color:#d8d8d8;
 }
-
+.nav{
+    padding:1em 0;
+    background:rgb(41, 41, 41);
+}
+.logo {
+    display:inline-block;
+    background-color: #11e38f;
+    font-weight: bold;
+    border-radius:1em;
+    padding:0.5em;
+}
+body > header > div > div > div > nav > div.navbar-header > div > div > a {
+    color:rgb(92, 90, 90);
+}
+/*ESTILOS REGISTER*/
 .display{
     display: none;
 }
+<<<<<<< HEAD
 >>>>>>> 64df3c759bb201791fb577f0fe5ed12be3934743
+=======
+/* ESTILOS FIRST*/
+.btn-alert {
+    text-align:center;
+    font-size: 5em;
+}
+.reportar {
+    position:absolute;
+    color: #610414;
+    width: 200px;
+    font-size:0.4em;
+    top:65%;
+    left:23%;
+}
+body > section:nth-child(3) > div > div > div > div > div > figure > button > i {
+    color:#e0263f;
+}
+.box {
+    background-color: #e0263f;
+    width: 200px;
+    height: 500px;
+    border-radius: 15px;
+}
+.question {
+    font-weight: bold;
+    text-align:center;
+    font-size:2em;
+}
+.btn-circle.btn-xl {
+  width: 12em;
+  height: 12em;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 24em;
+}
+
+>>>>>>> b7008433fce5e21a3bd9076568b48e0538d17967
