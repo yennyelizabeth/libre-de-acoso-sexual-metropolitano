@@ -4,21 +4,14 @@ body{
     background-color:#d8d8d8;
 }
 
-.nav{
-    padding:1em 0;
-    background:rgb(41, 41, 41);
-}
-
 .logo {
     display:inline-block;
     background-color: #11e38f;
     font-weight: bold;
     border-radius:1em;
     padding:0.5em;
-}
-
-body > header > div > div > div > nav > div.navbar-header > div > div > a {
-    color:rgb(92, 90, 90);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 /*Styles for register */
@@ -27,6 +20,9 @@ body > header > div > div > div > nav > div.navbar-header > div > div > a {
     display: none;
 }
 
+.show {
+    display: block;
+}
 /* Styles for first section */
 
 .btn-alert {
@@ -131,7 +127,7 @@ body > section:nth-child(3) > div > div > div > div > div > figure > button > i 
      margin-left: 8rem;
  }
 
- #btn-1{
+.btn-img {
      size: 15em;
      background-color: rgba(4, 234, 54, 0.623);
      padding-top: 1rem;
@@ -170,17 +166,17 @@ input[type = "radio"]:checked ~ label {
     color:orange;
 }
  
-#form {
+.form {
      width: 250px;
      margin: 0 auto;
      height: 50px;
 }
    
-#form p { 
+.form p { 
     text-align: center; 
 }
 
-#form label { 
+.form label { 
     font-size: 20px; 
 }
 
@@ -207,6 +203,140 @@ input[type="radio"]:checked ~ label {
  
 .size-star { 
     font-size: 2.0em;
+}
+
+/* ESTILOS BLOG */
+.sectionBlog {
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+}
+.titleBlog {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+}
+.borderBlog {
+    border-radius: 15px;
+    height: 7vh;
+}
+.blog-img {
+    margin-top: 5vh;
+    width: 120%;
+    height: auto;
+}
+.container-answers {
+    margin-top: 5vh;
+}
+/* Sections*/
+.blog-form {
+    display: inline-block;
+    background-color: rgb(174, 209, 206);
+    margin-left: 2vh;
+    height: 10vh;
+}
+.control-group {
+    background-color: transparent;
+    border-bottom: 1px solid #eee;
+    margin-top: 1vh;
+}
+.container-group {
+    padding: 0;
+}
+.container-group textarea {
+    background-color: transparent;
+    resize: none;
+    border: none;
+    outline: none;
+    font-size: 1.2em;
+    width: 100%;
+    min-height: 5vh;
+    overflow: hidden;
+}
+#textArea {
+    vertical-align: middle;
+}
+.divisionMessage{  
+    height: 0.5vh;
+    background-color:#929191; 
+  }
+.btn-blog {
+    color: #fff;
+    border: 1px solid #C4C0BF;
+    background-color: #18bc9c;
+    padding: 0.6rem 1.5rem; 
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 2vh;
+    outline: 0;
+    margin-top: 2vh;
+    margin-right: 3vh;
+    float: right;
+}
+.btn-blog[disabled] {
+    background-color: #C4C0BF;
+    color: #fff; 
+}
+
+.btn-blog:active {
+    background-color: #E0E4E2;
+    border: 1px solid #000;
+    color: #C4C0BF;
+    border-radius: 0.5rem;
+    outline: 0;
+}
+.number1 {
+    background-color: transparent;
+    border: none;
+}
+.number{
+    background-color: transparent;
+    border: none;
+}
+hr {
+    margin: 0;
+    margin-right: 1vh;
+}
+input {
+    margin: 0;
+}
+/* Styles for second-section*/
+#second-section {   
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+.paragraph {
+    width: 95%;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    margin-bottom: 1vh;
+}
+.text {
+    font-size: 20px;
+}
+
+.hour {
+    font-size: 20px;
+} 
+
+/* Section Information */
+
+.information-legal {
+    background-image: url('../assets/images/metropolitano-normativa.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-position: center center ;
+    opacity: 2;
+}
+
+.content-1 {
+    color: white;
+    background-color: #08f0dc9d;
+    opacity: 9;
+    border: 0.3rem solid lightblue;
+    width: 30rem;
+    height: 12rem;
+
 }
 
 
