@@ -111,7 +111,7 @@ body > section:nth-child(3) > div > div > div > div > div > figure > button > i 
 
 /* Styles for usuario first and second */
 
-img-operator-1{
+.img-operator-1{
     background-image: url('../assets/images/callcenter.png');
     margin: 2rem;
     width: 15rem;
