@@ -1,12 +1,14 @@
-/*ESTILOS NAV */
+/*Styles for nav */
 
 body{
     background-color:#d8d8d8;
 }
+
 .nav{
     padding:1em 0;
     background:rgb(41, 41, 41);
 }
+
 .logo {
     display:inline-block;
     background-color: #11e38f;
@@ -14,20 +16,24 @@ body{
     border-radius:1em;
     padding:0.5em;
 }
+
 body > header > div > div > div > nav > div.navbar-header > div > div > a {
     color:rgb(92, 90, 90);
 }
 
-/*ESTILOS REGISTER*/
-.display{
+/*Styles for register */
+
+.hide {
     display: none;
 }
 
-/* ESTILOS FIRST*/
+/* Styles for first section */
+
 .btn-alert {
     text-align:center;
     font-size: 5em;
 }
+
 .reportar {
     position:absolute;
     color: #610414;
@@ -36,20 +42,24 @@ body > header > div > div > div > nav > div.navbar-header > div > div > a {
     top:65%;
     left:23%;
 }
+
 body > section:nth-child(3) > div > div > div > div > div > figure > button > i {
     color:#e0263f;
 }
+
 .box {
     background-color: #e0263f;
     width: 200px;
     height: 500px;
     border-radius: 15px;
 }
+
 .question {
     font-weight: bold;
     text-align:center;
     font-size:2em;
 }
+
 .btn-circle.btn-xl {
   width: 12em;
   height: 12em;
@@ -92,3 +102,106 @@ body > section:nth-child(3) > div > div > div > div > div > figure > button > i 
     padding-left: 15px;
     margin: 0;
 }
+
+/* Styles for usuario first and second */
+
+img-operator-1{
+    background-image: url('../assets/images/callcenter.png');
+    margin: 2rem;
+    width: 15rem;
+    height:15rem;
+    background-size:cover;
+    background-position: center center;
+    margin-left: 10rem;
+ }
+
+ .img-operator-2 {
+     background-image: url('../assets/images/agente.jpg');
+     margin: 2rem;
+     width: 19rem;
+     height:19rem;
+     background-size:cover;
+     background-position: center center;
+     margin-left: 8rem;
+ }
+
+ #btn-1{
+     size: 15em;
+     background-color: rgba(4, 234, 54, 0.623);
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     padding-left: 4rem;
+     padding-right:4rem;
+     border-radius: 1rem;
+     font: bold;
+     font-size: 2rem;
+     font-weight: bold;
+   
+ }
+ 
+label { 
+     color:grey;
+}
+
+input[type = "radio"] { 
+    display:none;
+}
+
+.clasificacion {
+     direction: rtl;/* right to left */
+     unicode-bidi: bidi-override;/* bidi de bidireccional */
+}
+
+label:hover {
+    color:orange;
+}
+
+label:hover ~ label { 
+    color:orange;
+}
+
+input[type = "radio"]:checked ~ label {
+    color:orange;
+}
+ 
+#form {
+     width: 250px;
+     margin: 0 auto;
+     height: 50px;
+}
+   
+#form p { 
+    text-align: center; 
+}
+
+#form label { 
+    font-size: 20px; 
+}
+
+input[type="radio"] { 
+    display: none;
+}
+
+label {
+    color: grey;
+}
+   
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+   
+label:hover, label:hover ~ label { 
+    color: orange; 
+}
+
+input[type="radio"]:checked ~ label { 
+    color: orange; 
+}
+ 
+.size-star { 
+    font-size: 2.0em;
+}
+
+
+
