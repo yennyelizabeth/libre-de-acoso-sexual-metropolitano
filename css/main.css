@@ -1,1 +1,35 @@
 /*Estilos*/
+
+/* Styles for second section */
+
+.container-img {
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+}
+
+[alt="iconMujer"] {
+    width: 80%;
+}
+
+.paragraph{
+    margin-top: 3rem;
+}
+
+.icon-phone {
+    color: #52C306;
+    font-size: 8rem;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.icon-phone-hang-up {
+    color: #FE4740;
+    font-size: 8rem;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0;
+}
