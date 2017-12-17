@@ -6,12 +6,15 @@ body{
 
 .logo {
     display:inline-block;
-    background-color: #11e38f;
-    font-weight: bold;
     border-radius:1em;
-    padding:0.5em;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+    padding:0.5em 0;
+    max-width:8em;
+}
+body > header > div > div > div > nav > div.navbar-header.nav > div > button {
+    color:rgb(187, 184, 184);
+
 }
 
 /*Styles for register */
