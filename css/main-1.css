@@ -1,0 +1,71 @@
+/*Estilos*/
+
+/* estilos universales  */
+* {
+   margin:0 ;
+   padding: 0;
+   box-sizing: border-box;
+   }
+
+.img-operator-1{
+   background-image: url('../assets/images/callcenter.png');
+   margin: 2rem;
+   width: 15rem;
+   height:15rem;
+   background-size:cover;
+   background-position: center center;
+   margin-left: 10rem;
+}
+.img-operator-2 {
+    background-image: url('../assets/images/agente.jpg');
+    margin: 2rem;
+    width: 19rem;
+    height:19rem;
+    background-size:cover;
+    background-position: center center;
+    margin-left: 8rem;
+}
+#btn-1{
+    size: 15em;
+    background-color: rgba(4, 234, 54, 0.623);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 4rem;
+    padding-right:4rem;
+    border-radius: 1rem;
+    font: bold;
+    font-size: 2rem;
+    font-weight: bold;
+  
+}
+
+label{ color:grey;}
+input[type = "radio"]{ display:none;}
+.clasificacion{
+    direction: rtl;/* right to left */
+    unicode-bidi: bidi-override;/* bidi de bidireccional */
+}
+label:hover{color:orange;}
+label:hover ~ label{color:orange;}
+input[type = "radio"]:checked ~ label{color:orange;}
+
+#form {
+    width: 250px;
+    margin: 0 auto;
+    height: 50px;
+}
+  
+#form p { text-align: center; }
+#form label { font-size: 20px; }
+input[type="radio"] { display: none;}
+label {color: grey;}
+  
+.clasificacion {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+  
+label:hover, label:hover ~ label { color: orange; }
+input[type="radio"]:checked ~ label { color: orange; }
+
+.size-star { font-size: 2.0em;}
