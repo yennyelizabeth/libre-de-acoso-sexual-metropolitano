@@ -1,4 +1,5 @@
 /*Estilos*/
+<<<<<<< HEAD
 
 /* Styles for second section */
 
@@ -33,3 +34,19 @@
     padding-left: 15px;
     margin: 0;
 }
+=======
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.section-register{
+    position: relative;
+    top: 12em;
+}
+
+.display{
+    display: none;
+}
+>>>>>>> 64df3c759bb201791fb577f0fe5ed12be3934743
