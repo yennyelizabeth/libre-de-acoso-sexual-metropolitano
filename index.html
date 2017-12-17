@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -55,6 +55,7 @@
       </div>
     </div>
   </header>
+  <!-- Register section-->
   <section class="section-register" id="sectionRegister">
     <div class="container">
       <div class="row">
@@ -85,11 +86,9 @@
           <div class=" container alert">
             <div>
               <p class="question">¿Estas siendo victima de acoso?</p>
-              <figure class="btn-alert">
-                <button id="btn-red" type="button" class="btn btn-danger btn-circle btn-xl">
-                  <i class="fa fa-circle-o fa-5x" aria-hidden="true"></i>
-                </button>
-                <div class="reportar">REPORTAR</div>
+              <figure class="btn-alert" data-toggle="modal" data-target="#miModal">
+                  <button id="btn-red"type="button" class="btn btn-danger btn-circle btn-xl"><i class="fa fa-circle-o fa-5x" aria-hidden="true"></i></button>
+                  <div class="reportar">REPORTAR</div>
               </figure>
             </div>
           </div>
@@ -97,6 +96,29 @@
       </div>
     </div>
   </section>
+  <!-- Modal Section -->
+    <section class="modal fade" id="miModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Tu reporte ha sido recibido</h4>
+                </div>
+                <div class="modal-body">
+                    En unos constantes seras contactada <br>
+                    por uno de nuestros operadores.
+                </div>
+                <div class="container icons">
+                   <div class="row">
+                    <i class="col-xs-6 fa fa-check fa-4x" aria-hidden="true"></i>
+                    <i class="col-xs-6 fa fa-volume-control-phone fa-4x" aria-hidden="true"></i>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </section>
   <!-- Second Section -->
   <section class="hide" id="call">
     <div class="container-fluid">

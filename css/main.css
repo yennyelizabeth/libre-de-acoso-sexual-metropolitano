@@ -68,6 +68,12 @@ body > section:nth-child(3) > div > div > div > div > div > figure > button > i 
   line-height: 1.33;
   border-radius: 24em;
 }
+/* ESTILOS DEL MODAL */
+.icons {
+    color:#52C306;
+    text-align: center;
+    padding:1em;
+}
 
 /* Styles for second section */
 
