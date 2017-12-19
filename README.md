@@ -1,13 +1,16 @@
 EVENTO: HACKATON - "IGUALDAD DE GÉNERO"
 ======================================
 
-![Inicio](assets/images/afiche.jpg)
+![Inicio](assets/images/img-readme/afiche.jpg)
 
+- El Acoso Sexual en el Trasnporte Metropolitano
+![Inicio](assets/images/img-readme/problema.jpg)
 
 GRUPO: THE POWER CODE STRIKES BACK
 ---------------------------------------
 
 ## PROYECTO: NO+SILENCIO
+![Inicio](assets/images/img-readme/logo.png)
 
 ## BREVE EXPLICACION: 
 - Una App “Botón Alarma que Reporta el Acoso Sexual en el Metropolitano” .Este Aplicativo le permite a la victima ó testigo generar una alerta al equipo de seguridad para que realice la intervención de la persona señalada en la siguiente estación del metropolitano a la que se encuentre,  logrando promover la generación de espacios libres de violencia sexual en el transporte público, atraves de una estrategia de prevención , disuación e intervención frente a un reporte de acoso sexual.
@@ -21,15 +24,14 @@ GRUPO: THE POWER CODE STRIKES BACK
 
 ## PROTOTIPO :
 ----------------------
-![Inicio](assets/images/pantalla-1.png)
-![Inicio](assets/images/pantalla-2.png)
-![Inicio](assets/images/pantalla-3.png)
-![Inicio](assets/images/pantalla-4.png)
-![Inicio](assets/images/pantalla-5.png)
-![Inicio](assets/images/pantalla-6.png)
-![Inicio](assets/images/pantalla-7.png)
-![Inicio](assets/images/vista-legal.png)
+![Inicio](assets/images/img-readme/pantalla-uno.png)
+![Inicio](assets/images/img-readme/pantalla-dos.png)
+![Inicio](assets/images/img-readme/pantalla-tres.png)
+![Inicio](assets/images/img-readme/pantalla-cuatro.png)
+![Inicio](assets/images/img-readme/pantalla-cinco.png)
+![Inicio](assets/images/img-readme/pantalla-seis.png)
+![Inicio](assets/images/img-readme/pantalla-siete.png)
 
 ## ANEXOS
-![Inicio](assets/images/encuesta-google.png)
+![Inicio](assets/images/img-readme/encuesta-google.png)
 
